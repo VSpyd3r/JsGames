@@ -1,0 +1,24 @@
+* {
+    text-align: center;
+    align-items: center;
+    background-color:burlywood;
+}
+
+
+
+.grid {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.square {
+    height: 200px;
+    width: 200px;
+    border: solid black 1px;
+}
+
+.mole{
+    background-image: url(./pexels-pixabay-63650.jpg);
+}

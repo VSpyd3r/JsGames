@@ -21,7 +21,6 @@ function moveFrog(e) {
             break
         case 'ArrowRight' :
             if (currentIndex % width < width - 1) currentIndex +=1
-
             break
         case 'ArrowUp' :
             if (currentIndex - width >= 0) currentIndex -= width
